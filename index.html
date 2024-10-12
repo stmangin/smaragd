@@ -17,6 +17,7 @@
             font-family: 'Montserrat', sans-serif;
             text-align: center;
             flex-direction: column;
+            padding: 0 20px; /* Adds some padding for smaller screens */
         }
         h1 {
             font-size: 5rem;
@@ -28,10 +29,27 @@
             color: white;
             margin: 0 0 20px 0;
         }
+        /* Media query for smaller screens (mobile phones) */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3rem; /* Decrease the size of the heading */
+            }
+            p {
+                font-size: 1.2rem; /* Decrease the size of the "Domain for sale" text */
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2.5rem; /* Further reduce size for very small screens */
+            }
+            p {
+                font-size: 1rem; /* Adjust the text size for better readability */
+            }
+        }
     </style>
 </head>
 <body>
     <p>Domain for sale</p>
-    <h1>smaragd.ai</h1>
+    <h1>Smaragd AI</h1>
 </body>
 </html>
