@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smaragd AI</title>
-    <!-- Link to Google Fonts for Montserrat -->
+    <!-- Link zu Google Fonts für Montserrat -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -17,7 +17,7 @@
             font-family: 'Montserrat', sans-serif;
             text-align: center;
             flex-direction: column;
-            padding: 0 20px; /* Adds some padding for smaller screens */
+            padding: 0 20px;
         }
         h1 {
             font-size: 5rem;
@@ -29,27 +29,49 @@
             color: white;
             margin: 0 0 20px 0;
         }
-        /* Media query for smaller screens (mobile phones) */
+        /* Media query für kleinere Bildschirme */
         @media (max-width: 768px) {
             h1 {
-                font-size: 3rem; /* Decrease the size of the heading */
+                font-size: 3rem;
             }
             p {
-                font-size: 1.2rem; /* Decrease the size of the "Domain for sale" text */
+                font-size: 1.2rem;
             }
         }
         @media (max-width: 480px) {
             h1 {
-                font-size: 2.5rem; /* Further reduce size for very small screens */
+                font-size: 2.5rem;
             }
             p {
-                font-size: 1rem; /* Adjust the text size for better readability */
+                font-size: 1rem;
             }
+        }
+        /* Footer-Stil */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <p>Domain for sale</p>
     <h1>smaragd.ai</h1>
+
+    <!-- Footer mit Kontaktinformationen -->
+    <footer>
+        <p>Contact: <a href="mailto:s544@gmx.de">s544@gmx.de</a></p>
+    </footer>
 </body>
 </html>
